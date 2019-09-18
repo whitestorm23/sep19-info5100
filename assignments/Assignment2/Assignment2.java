@@ -152,4 +152,21 @@ public class Assignment2 {
    }
 
 }
+    /*
+    Write a method to raise an employee's salary to three times of his/her original salary.
+    Eg: original salary was 1000/month. After using this method, the salary is 3000/month.
+    DO NOT change the input in this method.
+    Try to add a new method in Employee class: public void raiseSalary(double byPercent) 
+    Call this new method.
+ */
+    public void tripleSalary(Employee employee) {
+    	double originSalary=employee.getSalary();
+    	double newSalary=originSalary*3;
+    	employee.setSalary(newSalary);
+    	
+    // @TODO
+}
+
+
+
 }

@@ -22,4 +22,14 @@ public class Cookie extends DessertItem {
 		return num*costPerLb/12;
 	}
 
+	public int getNumber() {
+		// TODO Auto-generated method stub
+		return num;
+	}
+
+	public int getPricePerDozen() {
+		// TODO Auto-generated method stub
+		return costPerLb;
+	}
+
 }

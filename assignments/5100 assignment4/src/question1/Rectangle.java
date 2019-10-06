@@ -29,4 +29,4 @@ public class Rectangle extends Shape {
 	public void getPerimeter() {
 		System.out.println(2*(weight+height));
 	}
-}
+} 

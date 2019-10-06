@@ -10,7 +10,7 @@ public class IceCream extends DessertItem {
 	}
 
 	public IceCream(String name, int cost) {
-		this.name=name;
+		super.name=name;
 		this.cost=cost;
 		// TODO Auto-generated constructor stub
 	}

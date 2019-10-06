@@ -6,7 +6,7 @@ public class Circle extends Shape {
 	public Circle(double radius) {
 		this.radius=radius;
 	}
-	public double getRadius() {
+	public double getRadius() { 
 		return radius;
 	}
 

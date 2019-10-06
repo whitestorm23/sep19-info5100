@@ -10,6 +10,7 @@ public class Candy extends DessertItem {
 	}
 
 	public Candy(String string, double d, int i) {
+		super.name=string;
 		this.num=d;
 		this.costPerLb=i;
 		
@@ -20,6 +21,16 @@ public class Candy extends DessertItem {
 	public int getCost() {
 		// TODO Auto-generated method stub
 		return (int) (num*costPerLb);
+	}
+
+	public double getWeight() {
+		// TODO Auto-generated method stub
+		return num;
+	}
+
+	public int getPricePerPound() {
+		// TODO Auto-generated method stub
+		return costPerLb;
 	}
 
 }

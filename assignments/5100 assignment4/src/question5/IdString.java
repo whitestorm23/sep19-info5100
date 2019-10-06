@@ -11,7 +11,7 @@ public class IdString {
 		 System.out.println(Arrays.toString(example.diStringMatch(s)));
 		// TODO Auto-generated method stub
 
-	}
+	} 
 }
 class Solution {
 	public int[] diStringMatch(String S) {

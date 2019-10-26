@@ -1,8 +1,5 @@
-package Assignment2;
+package assignment2;
 
-/**
- * Submit it on or before 22nd September 2019 , 12:00 pm
- */
 public class Assignment2 {
     /*
         This method should return the sum of salaries of employees having salary greater than 5000
@@ -170,4 +167,3 @@ public class Assignment2 {
 
 
 }
-
